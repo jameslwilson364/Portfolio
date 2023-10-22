@@ -1,0 +1,80 @@
+body {
+    font-family: sans-serif;
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    color: black;
+}
+
+header {
+    background-color: rgb(11, 94, 11);
+    padding: 10px;
+    text-align: left;
+    z-index: 1;
+}
+
+h1 {
+    font-family: karla;
+    color:antiquewhite;
+    font-size: 50px;
+}
+
+nav {
+    background-color: rgb(11, 94, 11);
+    font-family: karla;
+    font-size: 25px;
+    color: antiquewhite;
+    display: flex;
+    justify-content: right;
+    padding: 5px; 
+}
+
+footer {
+    background-color: rgb(11, 94, 11);
+    color: antiquewhite;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+    text-align: center;
+    padding: 10px;
+    margin-top: 15px;
+    bottom: 0;
+    width: 100%;
+    position: fixed;
+}
+
+.nav-link {
+    color:antiquewhite;
+}
+
+.center-block {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer-link {
+    color:antiquewhite;
+}
+
+#wilson {
+    font-family: Dancing Script;
+    font-size: 55px;
+}
+
+#weatherApp {
+    align-content: flex-end;
+}
+
+#panda {
+    justify-content: center;
+    display: flex;
+    width: 300px;
+    height: 300px;
+    padding: 10px;
+}
+
+#introduction {
+    font-family: karla;
+
+}
