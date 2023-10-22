@@ -51,10 +51,30 @@ footer {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    font-weight: bolder;
 }
 
 .footer-link {
     color:antiquewhite;
+}
+
+.contentfocus {
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+.contentitem img header{
+    height: 400px;
+    width: 550px;
+    padding: 10px;
+}
+
+.appImage {
+    height: 400px;
 }
 
 #wilson {
@@ -76,5 +96,13 @@ footer {
 
 #introduction {
     font-family: karla;
+    text-align: center;
 
 }
+
+@media screen and (max-width: 768px) {
+    main,
+    nav {
+      flex-direction: column;
+    }
+  }
