@@ -162,12 +162,14 @@ footer {
 
 #introduction {
     font-family: karla;
+    font-size: 20px;
     text-align: center;
 
 }
 
 #weatherReport {
     font-family: karla;
+    font-size: 20px;
     text-align: center;
 
 }

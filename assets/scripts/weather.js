@@ -22,7 +22,7 @@ fetch('https://api.openweathermap.org/data/2.5/weather?q='+currentLocation+',us&
         let weatherCode = (data.weather[0].id)
         console.log(roundedTemp);
         console.log(weatherCode);
-        if (weatherApp == 800) {
+        if (weatherCode == 800) {
             weatherReport.text("I am located in " + currentLocation + ".  It is currently " + roundedTemp + " degrees and 🌞");
         } else if (weatherCode > 800 && weatherCode < 805) {
             weatherReport.text("I am located in " + currentLocation + ".  It is currently " + roundedTemp + " degrees and 🌤️"); 
