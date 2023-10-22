@@ -28,7 +28,7 @@
         <h1>James <span id="wilson">Wilson's</span> Portfolio</h1>
     </header>
     
-    <div class="col-12 col-md-12  bg-white rounded ">
+    <div class="col-12 col-md-12  bg-white rounded">
         <nav class="navbar navbar-expand-lg">
           <div class="container-fluid">
              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#dark-nav"
@@ -36,66 +36,93 @@
               <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse " id="dark-nav">
-              <ul class="nav navbar-nav col-12 col-md-12">
-                <li class="nav-item active col-2">
-                  <a class="nav-link" href="https://github.com/jameslwilson364">My Github Repo <span class="sr-only">(current)</span></a>
+              <ul class="nav navbar-nav col-12">
+                <li class="nav-item active col-12 col-md-2">
+                  <a class="nav-link" href="https://github.com/jameslwilson364">My Github Repo</a>
                 </li>
-                <li class="nav-item col-2">
+                <li class="nav-item col-12 col-md-2">
                   <a class="nav-link" href="https://git.bootcampcontent.com/University-of-Texas-at-San-Antonio/UTSA-VIRT-FSF-PT-08-2023-U-LOLC">Gitlab UTSA Bootcamp</a>
                 </li><li class="col-6"></li>
-                <li class="nav-item" id="weatherApp"><a class="nav-link">Weather Dashboard<span class="sr-only">(current)</span></a></li>
+                <li class="nav-item col-12 col-md-2" id="weatherApp"><a class="nav-link">Weather Dashboard</a></li>
               </ul>
             </div>
           </div>
         </nav>
       </div>
       
-      <div class="col-12 col-md-12  rounded center-block">
-        <img class="center-block" id="panda" src="./assets/img/00003-2847657525.png" alt="panda playing bongos" class="img-thumbnail"/>
-    </div>
+        <div class="slideshow-container">
+            <div class="mySlides ">
+                <div class="numbertext">1/3</div>
+                <img  id="panda" src="./assets/img/me.jpg" alt="me" class="img-thumbnail"/>
+                <div class="text">James</div>
+            </div> 
+            
+            <div class="mySlides ">
+                <div class="numbertext">2/3</div>
+                <img  id="panda" src="./assets/img/00033-2973788711.png" alt="bear shredding on guitar" class="img-thumbnail"/>
+                <div class="text">StableDiffusion</div>
+            </div>    
+            
+            <div class="mySlides ">
+                <div class="numbertext">3/3</div>
+                <img  id="panda" src="./assets/img/00003-2847657525.png" alt="panda jamming on bongos" class="img-thumbnail"/>
+                <div class="text">StableDiffusion</div>
+            </div>
+            
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            
+            <div style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+            </div>
+        </div>
+
+
     <div class="col-12 col-md-12 center-block py-2">
         <p class="center-block col-4" id="introduction">Hello Friends!  My name is James Wilson and I am an aspiring full stack web developer.  My current 
-            day job is a project manager and I enjoy dabbling in stablediffusion. Below you will find the various projects I have completed.  Enjoy!  
+            day job is a project manager and I enjoy dabbling in StableDiffusion. Below you will find the various projects I have completed.  Enjoy!  
         </p>
     </div>
 
     <div class="col-12">
         <section class="row justify-content-around col-12 px-3 py-4 mb-4 contentfocus">
                     
-            <section class="contentitem col-4 px-4 py-4">
+            <section class="contentitem col-12 col-md-4 px-4 py-4">
                 <header class="bg-dark "><a class="nav-link" href="https://jameslwilson364.github.io/Challenge-1-Wilson/">Fixed their code</a></header>
                 <img class="col-12 appImage" id="ch1" src="./assets/img/Screenshot 2023-08-25 142645.png" alt="snapshot of the completed challenge site">
-                <p class="col-12"> The header of this content will take you the deployed site for Challenge 1</p>
+                <p class="col-12"> This was a debug exercise</p>
             </section>
                            
-            <section class="contentitem col-4 px-4 py-4"><header class="bg-dark"><a class="nav-link" href="https://jameslwilson364.github.io/Challenge-3-Wilson-Password-Generator/">Password Generator</a></header>
+            <section class="contentitem col-12 col-md-4 px-4 py-4"><header class="bg-dark"><a class="nav-link" href="https://jameslwilson364.github.io/Challenge-3-Wilson-Password-Generator/">Password Generator</a></header>
                 <img class="col-12 appImage" id="ch2" src="./assets/img/Screenshot 2023-09-10 114326.png" alt="Password Generator">
                 <p class="col-12"> Password Generator</p>
             </section>
     
-            <section class="contentitem col-4 px-4 py-4"><header class="bg-dark"><a class="nav-link" href="https://jameslwilson364.github.io/Challenge-4-Code-Quiz/">Test Your JS Knowledge</a></header>
+            <section class="contentitem col-12 col-md-4 px-4 py-4"><header class="bg-dark"><a class="nav-link" href="https://jameslwilson364.github.io/Challenge-4-Code-Quiz/">Test Your JS Knowledge</a></header>
                 <img class="col-12 appImage" id="ch3" src="./assets/img/week4.png" alt="JS Quiz"/>
                 <p class="col-12"> JS Quiz</p><br>
                 
             </section>
     
-            <section class="contentitem col-4 px-4 py-4"><header class="bg-dark "><a class="nav-link" href="https://jameslwilson364.github.io/Challenge-5-Daily_Calendar/">Plan Your Day</a></header>
+            <section class="contentitem col-12 col-md-4 px-4 py-4"><header class="bg-dark "><a class="nav-link" href="https://jameslwilson364.github.io/Challenge-5-Daily_Calendar/">Plan Your Day</a></header>
                 <img class="col-12 appImage" id="ch3" src="./assets/img/week5.png" alt="JS Quiz"/>
                 <p class="col-12"> Calendar App</p><br><br>
                 
             </section>
     
-            <section class="contentitem col-4 px-4 py-4"><header class="bg-dark "><a class="nav-link" href="https://jameslwilson364.github.io/Week6-Weather-Dashboard/">Know thy Weather</a></header>
+            <section class="contentitem col-12 col-md-4 px-4 py-4"><header class="bg-dark "><a class="nav-link" href="https://jameslwilson364.github.io/Week6-Weather-Dashboard/">Know thy Weather</a></header>
               <img class="col-12 appImage" id="ch3" src="./assets/img/week6.png.png" alt="WeatherMan"/>
               <p class="col-12"> 5 Day Weather Forecast</p><br><br>
             </section>
     
-            <section class="contentitem col-4 px-4 py-4"><header class="bg-dark "><a class="nav-link" href="https://jameslwilson364.github.io/weeklyMoodal/">How are you feeling</a></header>
+            <section class="contentitem col-12 col-md-4 px-4 py-4"><header class="bg-dark "><a class="nav-link" href="https://jameslwilson364.github.io/weeklyMoodal/">How are you feeling</a></header>
                 <img class="col-12 appImage" id="ch3" src="./assets/img/project1.png.png" alt="weeklyMoodal"/>
                 <p class="col-12"> Weekly Moodal</p><br><br>
             </section>
         
-            <section class="contentitem col-4 px-4 py-4"><header class="bg-dark "><a class="nav-link" href="https://drive.google.com/file/d/1fwDksAGc9x2cIdB9zOH4BV5nfc2jvIUq/view">Make your own README</a></header>
+            <section class="contentitem col-12 col-md-4 px-4 py-4"><header class="bg-dark "><a class="nav-link" href="https://drive.google.com/file/d/1fwDksAGc9x2cIdB9zOH4BV5nfc2jvIUq/view">Make your own README</a></header>
                 <img class="col-12 appImage" id="ch3" src="./assets/img/week9.png" alt="README-maker"/>
                 <p class="col-12"> README Maker</p><br><br>
             </section>
@@ -109,6 +136,7 @@
         contact me at <a class="footer-link" href="mailto:james.l.wilson364@gmail.com">james.l.wilson364@gmail.com</a> <br>
         or link me at <a class="footer-link" href="https://www.linkedin.com/in/jimmy-wilson-pmp-46153149/"/>jimmy-wilson-pmp-46153149</a>
     </footer>
-    
+
+    <script src="./assets/scripts/carousel.js"></script>
 </body>
 </html>
